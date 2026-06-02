@@ -1,6 +1,6 @@
 # ProStorage Solutions
 
-![ProStorage Solutions](img/logo.png)
+![ProStorage Solutions](img/logo-banner.png)
 
 ## Cloud · Security · Infrastructure
 
