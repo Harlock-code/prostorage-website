@@ -63,6 +63,8 @@
           sizes="32x32"
           href="img/favicon.png">
 
+    <link rel="apple-touch-icon" href="img/favicon.png">
+
 </head>
 
 <body>
@@ -84,6 +86,7 @@
     <a href="#projects">Proyectos</a>
     <a href="#about">Nosotros</a>
     <a href="#process">Metodología</a>
+    <a href="#architectures">Arquitecturas</a>
     <a href="#contact">Contacto</a>
 </nav>
 
@@ -596,6 +599,48 @@
 
 </section>
 
+<section id="architectures">
+
+    <h2>Arquitecturas de referencia</h2>
+
+    <p class="section-intro">
+        Ejemplos visuales de soluciones IT que pueden adaptarse a pequeñas y medianas empresas.
+    </p>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>🔐 Nube privada segura</h3>
+            <p>Nextcloud + WireGuard + Backups para acceso seguro a archivos.</p>
+             <img src="img/architectures/nextcloud-wireguard.png"
+                alt="Arquitectura Nextcloud WireGuard"
+                class="architecture-img">
+        </div>
+
+        <div class="service-card">
+            <h3>📊 Monitorización empresarial</h3>
+            <p>Zabbix para supervisar servidores, servicios y alertas.</p>
+            <img src="img/architectures/zabbix.png"
+                alt="Arquitectura Nextcloud WireGuard"
+                class="architecture-img">
+        </div>
+
+        <div class="service-card">
+            <h3>☁ Infraestructura Cloud</h3>
+            <p>Azure + Terraform para desplegar infraestructura como código.</p>
+            <img src="img/architectures/terraform.png" alt="Arquitectura Azure Terraform" class="architecture-img">
+        </div>
+
+        <div class="service-card">
+            <h3>🖥 Virtualización</h3>
+            <p>Proxmox VE para virtualización, servicios y laboratorio empresarial.</p>
+            <img src="img/architectures/proxmox.png" alt="Arquitectura Proxmox VE" class="architecture-img">
+        </div>
+
+    </div>
+
+</section>
+
 
 <section id="contact">
 
@@ -649,7 +694,16 @@
 
 </footer>
 
+<div id="imageModal" class="modal">
+
+    <span class="close-modal">&times;</span>
+
+    <img class="modal-content" id="modalImage">
+
+</div>
 <script src="js/main.js"></script>
+
+
 
 </body>
 
