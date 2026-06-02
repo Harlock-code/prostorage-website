@@ -1,7 +1,21 @@
 # ProStorage Solutions
 
 ![ProStorage Solutions](img/logo-banner.png)
+<p align="center">
+  <img src="https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-Systems-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Terraform-IaC-844FBA?style=for-the-badge&logo=terraform&logoColor=white">
+  <img src="https://img.shields.io/badge/Ansible-Automation-EE0000?style=for-the-badge&logo=ansible&logoColor=white">
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Wazuh-SIEM-005571?style=for-the-badge&logo=securityscorecard&logoColor=white">
+  <img src="https://img.shields.io/badge/Zabbix-Monitoring-D40000?style=for-the-badge&logo=zabbix&logoColor=white">
+  <img src="https://img.shields.io/badge/WireGuard-VPN-88171A?style=for-the-badge&logo=wireguard&logoColor=white">
+  <img src="https://img.shields.io/badge/Proxmox-Virtualization-E57000?style=for-the-badge&logo=proxmox&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Hosting-222222?style=for-the-badge&logo=githubpages&logoColor=white">
+</p>
 ## Cloud · Security · Infrastructure
 
 ProStorage Solutions es una iniciativa enfocada en ayudar a pequeñas y medianas empresas a mejorar su infraestructura IT mediante soluciones modernas de cloud, seguridad, automatización y monitorización.
