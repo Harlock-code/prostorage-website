@@ -150,7 +150,10 @@ footer{
 
     justify-content:center;
 
+    align-items:center;
+
     gap:20px;
+
 }
 
 .btn-primary{
@@ -177,8 +180,6 @@ footer{
 
     display:inline-block;
 
-    margin-top:20px;
-
     border:2px solid #2563eb;
 
     color:white;
@@ -190,6 +191,7 @@ footer{
     text-decoration:none;
 
     transition:0.3s;
+
 }
 
 .btn-secondary:hover{
