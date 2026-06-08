@@ -757,52 +757,58 @@
         </div>
 
         <form class="contact-form"
-              action="mailto:info@prostorage-solutions.es"
-              method="post"
-              enctype="text/plain">
+      action="https://formspree.io/f/xojzdndj"
+      method="POST">
 
-            <div class="form-group">
-                <label for="name">Nombre y apellidos</label>
-                <input type="text" id="name" name="Nombre" required>
-            </div>
+    <input type="hidden" name="_subject" value="Nueva consulta desde ProStorage Solutions">
 
-            <div class="form-group">
-                <label for="company">Empresa</label>
-                <input type="text" id="company" name="Empresa">
-            </div>
+    <div class="form-group">
+        <label for="name">Nombre y apellidos</label>
+        <input type="text" id="name" name="Nombre" required>
+    </div>
 
-            <div class="form-group">
-                <label for="email">Correo electrónico</label>
-                <input type="email" id="email" name="Email" required>
-            </div>
+    <div class="form-group">
+        <label for="company">Empresa</label>
+        <input type="text" id="company" name="Empresa">
+    </div>
 
-            <div class="form-group">
-                <label for="service">Servicio de interés</label>
-                <select id="service" name="Servicio">
-                    <option value="">Selecciona una opción</option>
-                    <option value="Cloud Empresarial">Cloud Empresarial</option>
-                    <option value="Seguridad y VPN">Seguridad y VPN</option>
-                    <option value="Backup y Recuperación">Backup y Recuperación</option>
-                    <option value="Supervisión de Infraestructura">Supervisión de Infraestructura</option>
-                    <option value="Infraestructura IT Gestionada">Infraestructura IT Gestionada</option>
-                    <option value="No estoy seguro">No estoy seguro, necesito asesoramiento</option>
-                </select>
-            </div>
+    <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+    </div>
 
-            <div class="form-group">
-                <label for="message">Cuéntanos brevemente qué necesitas</label>
-                <textarea id="message" name="Mensaje" rows="6" required></textarea>
-            </div>
+    <div class="form-group">
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" name="Telefono">
+    </div>
 
-            <button type="submit" class="btn-primary">
-                Enviar consulta
-            </button>
+    <div class="form-group">
+        <label for="service">Servicio de interés</label>
+        <select id="service" name="Servicio">
+            <option value="">Selecciona una opción</option>
+            <option value="Cloud Empresarial">Cloud Empresarial</option>
+            <option value="Seguridad y VPN">Seguridad y VPN</option>
+            <option value="Backup y Recuperación">Backup y Recuperación</option>
+            <option value="Supervisión de Infraestructura">Supervisión de Infraestructura</option>
+            <option value="Infraestructura IT Gestionada">Infraestructura IT Gestionada</option>
+            <option value="No estoy seguro">No estoy seguro, necesito asesoramiento</option>
+        </select>
+    </div>
 
-            <p class="form-note">
-                Al enviar este formulario se abrirá tu cliente de correo para completar el envío.
-            </p>
+    <div class="form-group">
+        <label for="message">Cuéntanos brevemente qué necesitas</label>
+        <textarea id="message" name="Mensaje" rows="6" required></textarea>
+    </div>
 
-        </form>
+    <button type="submit" class="btn-primary">
+        Enviar consulta
+    </button>
+
+    <p class="form-note">
+        Tus datos se enviarán de forma segura para poder responder a tu consulta.
+    </p>
+
+</form>
 
     </div>
 
