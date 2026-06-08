@@ -1102,44 +1102,30 @@ footer {
 }
 
 .stats-section{
+    max-width:1000px;
+    margin:-40px auto 80px auto;
+    padding:0 20px 40px 20px;
+
     display:grid;
-    grid-template-columns:repeat(4, 220px);
-    justify-content:center;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
     gap:25px;
-
-    padding-top:0 !important;
-    padding-bottom:40px !important;
-
-    margin-top:-40px;
-    margin-bottom:40px;
 }
 
 .stat-card{
-
-    background:linear-gradient(
-        145deg,
-        rgba(30,41,59,.9),
-        rgba(15,23,42,.95)
-    );
-
-    border:1px solid rgba(59,130,246,.2);
-
+    background:linear-gradient(145deg,#1e293b,#0f172a);
+    border:1px solid #334155;
     border-radius:18px;
-
     padding:35px 25px;
-
     text-align:center;
 }
 
 .stat-card h3{
-
     font-size:3rem;
     color:#3b82f6;
     margin-bottom:10px;
 }
 
 .stat-card span{
-
     color:#cbd5e1;
     font-size:1rem;
 }
