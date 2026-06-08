@@ -1198,3 +1198,33 @@ footer {
     font-size:.9rem;
     opacity:.7;
 }
+
+.founder-card{
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:35px;
+    align-items:center;
+    background:linear-gradient(145deg,#1e293b,#0f172a);
+    border:1px solid #334155;
+    border-radius:24px;
+    padding:35px;
+}
+
+.founder-photo img{
+    width:100%;
+    max-width:280px;
+    height:auto;
+    border-radius:20px;
+    border:1px solid #334155;
+    display:block;
+}
+
+@media(max-width:768px){
+    .founder-card{
+        grid-template-columns:1fr;
+    }
+
+    .founder-photo img{
+        max-width:100%;
+    }
+}
