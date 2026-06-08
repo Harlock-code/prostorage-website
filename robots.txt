@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prostorage-solutions.es/sitemap.xml
