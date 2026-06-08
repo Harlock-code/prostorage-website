@@ -108,26 +108,28 @@
     </div>
 
     <div class="hero-panel">
-    <div class="panel-card">
-       <i class="fa-solid fa-cloud"></i>
-       <span>Cloud empresarial</span>
-    </div>
 
-    <div class="panel-card">
-       <i class="fa-solid fa-shield-halved"></i>
-       <span>Seguridad y VPN</span>
-    </div>
+    <a href="cloud.html" class="panel-card">
+        <i class="fa-solid fa-cloud"></i>
+        <span>Cloud empresarial</span>
+    </a>
 
-    <div class="panel-card">
-       <i class="fa-solid fa-database"></i>
-       <span>Backup y recuperación</span>
-    </div>
+    <a href="vpn.html" class="panel-card">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>Seguridad y VPN</span>
+    </a>
 
-    <div class="panel-card">
-       <i class="fa-solid fa-chart-line"></i>
-       <span>Monitorización</span>
-    </div>
-    </div>
+    <a href="backup.html" class="panel-card">
+        <i class="fa-solid fa-database"></i>
+        <span>Backup y recuperación</span>
+    </a>
+
+    <a href="monitorizacion.html" class="panel-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <span>Monitorización</span>
+    </a>
+
+</div>
 </section>
 
 <section id="problems">
@@ -723,31 +725,84 @@
     <h2>Contacto</h2>
 
     <p class="section-intro">
-        ¿Necesitas ayuda con la infraestructura IT de tu empresa?
-        Cuéntanos tu caso y estudiaremos la mejor solución.
+        Cuéntanos qué necesita tu empresa y estudiaremos la mejor solución IT para tu caso.
     </p>
 
-    <div class="contact-card">
+    <div class="contact-layout">
 
-        <div class="contact-item">
-            <i class="fa-solid fa-envelope"></i>
-            <span>info@prostorage-solutions.es</span>
+        <div class="contact-info-card">
+
+            <h3>Hablemos de tu proyecto</h3>
+
+            <p>
+                Podemos ayudarte con cloud empresarial, acceso remoto seguro,
+                copias de seguridad, supervisión o infraestructura IT gestionada.
+            </p>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>info@prostorage-solutions.es</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Almería, España</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-clock"></i>
+                <span>Respuesta en horario laboral</span>
+            </div>
+
         </div>
 
-        <div class="contact-item">
-            <i class="fa-solid fa-phone"></i>
-            <span>Disponible próximamente</span>
-        </div>
+        <form class="contact-form"
+              action="mailto:info@prostorage-solutions.es"
+              method="post"
+              enctype="text/plain">
 
-        <div class="contact-item">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>Almería, España</span>
-        </div>
+            <div class="form-group">
+                <label for="name">Nombre y apellidos</label>
+                <input type="text" id="name" name="Nombre" required>
+            </div>
 
-        <a href="mailto:info@prostorage-solutions.es?subject=Consulta%20desde%20la%20web"
-           class="btn-primary">
-            Solicitar consulta
-        </a>
+            <div class="form-group">
+                <label for="company">Empresa</label>
+                <input type="text" id="company" name="Empresa">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Servicio de interés</label>
+                <select id="service" name="Servicio">
+                    <option value="">Selecciona una opción</option>
+                    <option value="Cloud Empresarial">Cloud Empresarial</option>
+                    <option value="Seguridad y VPN">Seguridad y VPN</option>
+                    <option value="Backup y Recuperación">Backup y Recuperación</option>
+                    <option value="Supervisión de Infraestructura">Supervisión de Infraestructura</option>
+                    <option value="Infraestructura IT Gestionada">Infraestructura IT Gestionada</option>
+                    <option value="No estoy seguro">No estoy seguro, necesito asesoramiento</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Cuéntanos brevemente qué necesitas</label>
+                <textarea id="message" name="Mensaje" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">
+                Enviar consulta
+            </button>
+
+            <p class="form-note">
+                Al enviar este formulario se abrirá tu cliente de correo para completar el envío.
+            </p>
+
+        </form>
 
     </div>
 
